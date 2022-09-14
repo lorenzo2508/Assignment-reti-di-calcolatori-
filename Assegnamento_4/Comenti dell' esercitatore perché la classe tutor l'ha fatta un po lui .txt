@@ -1,0 +1,33 @@
+COMMENTI DELL'ESERCITATORE
+ 
+RIGA	CLASSE
+18	TUTOR		 //TESISTI ASPETTANO
+   		 // ML: Questo contatore serve per capire se ci sono tesisti in attesa
+    		// sul computer a loro riservato. Lo incremento prima che un tesista si
+    		// metta ad aspettare e lo decremento quando ha finito.
+    		// Come nella mia soluzione, mi sembra di capire che anche per te i
+    		// tesisti abbiano un unico computer a cui accedere (ovvero quello identificato
+    		// dalla variabile computerPerTesisti). Dunque, un solo contatore e'
+    		// sufficiente per capire quanti tesisti sono in attesa.
+    		// Domanda: e se invece i tesisti fossero liberi di accedere a quasiasi
+    		// computer? LJ: Credo che se i tesisti fossero liberi di accedere a qualisiasi computer non importerebbe il monitor
+		
+94	""	// ML: Decremento il contatore dopo che il professore
+
+108	""	 // ML: Incremento il contatore dei tesisti per segnalare
+            // agli altri utenti che e' entrato un tesista.
+
+113	""	// ML: Decremento il contatore dopo che il tesista ha finito
+            // di attendere.
+
+127	""	// ML: Appena uno studente entra, provo ad assegnargli un computer.
+
+
+154	""	// ML: Qui non serve decrementare il contatore. Dato che e' una variabile
+        // che usi per tenere traccia di chi sta aspettando, non ha senso
+        // decrementarla all'uscita dal laboratorio. Infatti, quando il thread professore
+        // esegue questo codice, ha gia' finito di attendere da un bel po'!
+
+
+
+

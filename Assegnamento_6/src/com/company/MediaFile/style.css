@@ -1,0 +1,64 @@
+/* Impostare la lunghezza di ogni immagine al 100px */
+#immagine{
+    height: 100px;
+    width: 100px;
+ }
+ 
+ 
+ /* Mettere un bordo tratteggiato di 1px a tutte le sezioni */
+ .bordo{
+   border: 1px;
+   border-style: dashed;
+   
+ }
+ 
+ 
+ /* Colorare lo sfondo di rosso del titolo di Youtube */
+ .sfondoYT{
+   background: red; 
+   height: fit-content;
+   width:fit-content;
+ }
+ 
+ 
+ /* Colorare lo sfondo di giallo di tutti i link "Torna su" */
+ a.top:link {
+   color:#e2c20a;
+ }
+ 
+ 
+ /* Colorare di rosso la scritta "100 lingue" */
+ strong.lingue{
+   color: red; 
+ }
+ 
+ 
+ /* Colorare di verde lo sfondo della scritta "primo servizio" */
+ em.ps{
+   color:green; 
+ }
+  
+ 
+ /* Mettere un bordo spesso 5px intorno all'immagine di Youtube */
+ .bordoYT{
+   border: 5px solid;
+ 
+   
+ }
+ 
+ /* Provare la differenza tra attribute *= value e attribute ~= value */
+ 
+ 
+ /* Quando si passa sopra i link "Torna su" cambiare il background in rosso e mettere il font a 50px */
+   /* mouse over link */
+ a.top:hover {
+   background: red; 
+   font-size: 50px; 
+ }
+ 
+
+/*Questo è il selettore universale che serve per selezionare tutti gli elementi che sono nella pagina e applicare il suo stile. è il più debole di tutti quindi, può essere tranquillamente messo alla fine per specificare le cose più generali della pagina come ad esempio lo stile dei caratteri e il loro colore di default. Quindi tutti gli elementi che non hanno uno specifico stile prenderanno lo stile descritto all'interno del selettore universale.  */
+/**{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}*/
